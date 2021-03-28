@@ -12,7 +12,7 @@
     <tr>
    <td width=\"75%\"><a href=\"index.php\">Uy!Transfer</a></td>
     <td><a href=\"upload.php\">Enviar archivo</a></td>
-    <td><a href=\"https://www.google.com\">Mis ultimos archivos</a></td>
+    <td><a href=\"cookies.php\">Mis ultimos archivos</a></td>
     <tr>
     </table>";
 

@@ -17,6 +17,19 @@
     <tr>
     </table>";
 
+    echo "<h1>Archivos enviados recientemente</h1>";
+    $rutaDestino = $_COOKIE["rutaDestino"];
+
+    if (isset($_COOKIE["numlinks"])){
+        $numlinks = $_COOKIE["numlinks"];
+    
+        while (isset($_COOKIE["rutaDestino$numlinks"])) {
+            echo "<p><a href=\"$rutaDestino\">$rutaDestino</a></p>";
+
+            $numlinks--;
+        }
+    }
+
  	?>
     </body>
 </html>
